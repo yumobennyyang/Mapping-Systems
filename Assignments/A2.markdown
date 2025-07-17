@@ -1,0 +1,41 @@
+ Languages spoken at home - ACS
+ https://data.census.gov/table/ACSDT5Y2021.B16001?q=language+spoken+at+home
+ 
+ 
+ 
+ 
+        +------------------+           +--------------------------+
+        |  Personal GeoJSON|           |  ACS Language Dataset    |
+        |  (Points of cities)          |  (Census tracts by city) |
+        +------------------+           +--------------------------+
+                  |                              |
+                  |                              |
+                  |         Spatial Join         |
+                  +-------------+----------------+
+                                |
+                     Match city-level location
+                      to relevant census tract
+                                |
+                                v
+                +----------------------------------+
+                | For each city:                   |
+                | - % of non-English speakers      |
+                | - % Mandarin/Cantonese speakers  |
+                | - % with low English proficiency |
+                +----------------------------------+
+                                |
+                                v
+        +------------------------------------------------+
+        | Compare with your “language_comfort” rating     |
+        | → Identify alignment / dissonance               |
+        | → Note patterns (e.g. high comfort in diverse   |
+        |    places, or low comfort despite diversity)    |
+        +------------------------------------------------+
+                                |
+                                v
+              +-------------------------------+
+              | Output: Mapped gradient layer |
+              | - Personal points w/ comfort  |
+              | - Census language overlay     |
+              +-------------------------------+
+

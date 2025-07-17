@@ -1,0 +1,71 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": { "type": "Point", "coordinates": [121.2519415,31.290435] },
+        "properties": {
+          "city": "Shanghai",
+          "country": "China",
+          "years": "2003–2014",
+          "age_range": "0–11",
+          "language_spoken": "Mandarin",
+          "language_comfort": 10,
+          "note": "Where I was born and raised, all Mandarin until English classes."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": { "type": "Point", "coordinates": [116.3584029,39.9058718] },
+        "properties": {
+          "city": "Beijing",
+          "country": "China",
+          "years": "2014–2015",
+          "age_range": "11–12",
+          "language_spoken": "Mandarin (with accent shift)",
+          "language_comfort": 10,
+          "note": "International school, but spoke english only in class."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": { "type": "Point", "coordinates": [-121.8484007,37.1929583] },
+        "properties": {
+          "city": "San Jose",
+          "country": "USA",
+          "years": "2015–2017",
+          "age_range": "12–14",
+          "language_spoken": "English + Mandarin at home",
+          "language_comfort": 7,
+          "note": "Only spoke Mandarin at home, everything else is in English."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": { "type": "Point", "coordinates": [-72.5979674,42.5487219] },
+        "properties": {
+          "city": "Deerfield",
+          "country": "USA",
+          "years": "2017–2021",
+          "age_range": "14–18",
+          "language_spoken": "English",
+          "language_comfort": 8,
+          "note": "Boarding school, all English other than occasional family calls."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": { "type": "Point", "coordinates": [-73.9631198,40.8074615] },
+        "properties": {
+          "city": "New York",
+          "country": "USA",
+          "years": "2021–2025",
+          "age_range": "18–22",
+          "language_spoken": "English + Mandarin (situational)",
+          "language_comfort": 9,
+          "note": "Mainly English but more friends that speak Mandarin so more chances to speak more often than in Deerfield."
+        }
+      }
+    ]
+  }
+  
